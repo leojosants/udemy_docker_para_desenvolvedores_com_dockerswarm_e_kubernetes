@@ -1,6 +1,8 @@
-nome: "Leonardo"
-idade: 39
+# Intsrucoes para o programa
+nome: "Leonardo"  # nome do usuario
+idade: 39         # idade do usuario
 
+# Este objeto descreve nosso projeto
 objeto:
   versao: 2
   arquivo: "teste-txt"
