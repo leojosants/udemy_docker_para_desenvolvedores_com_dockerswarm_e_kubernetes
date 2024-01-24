@@ -9,3 +9,6 @@ objeto:
 
 versao: 2
 versaoCompleta: 3.14
+
+stringSemAspas: Digite um texto aqui
+stringComAspas: "Este tambem eh um texto valido para o YAML"
