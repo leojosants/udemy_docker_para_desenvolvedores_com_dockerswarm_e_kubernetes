@@ -29,3 +29,14 @@ listaSemConchetes:
   - idade
   - True
   - ~
+
+objetoComChaves: {a: 1, b: 2, c: 3, subObjetoComChaves: {d: 4, e: 5, f: 6}}
+
+objetoSemChaves: 
+  a: 1
+  b: 2
+  c: 3
+  subObjetoSemChaves:
+   d: 4
+   e: 5
+   f: 6
