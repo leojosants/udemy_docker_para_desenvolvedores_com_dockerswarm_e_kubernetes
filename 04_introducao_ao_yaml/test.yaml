@@ -21,3 +21,11 @@ verdadeiroComOn: On
 
 falsoComFalse: False
 falsoComOff: off
+
+listaComConchetes: [1, 2, 3, 4, 5]
+
+listaSemConchetes: 
+  - "teste"
+  - idade
+  - True
+  - ~
