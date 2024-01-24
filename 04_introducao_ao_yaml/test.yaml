@@ -6,3 +6,6 @@ idade: 39         # idade do usuario
 objeto:
   versao: 2
   arquivo: "teste-txt"
+
+versao: 2
+versaoCompleta: 3.14
