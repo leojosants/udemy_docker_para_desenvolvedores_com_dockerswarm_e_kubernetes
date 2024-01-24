@@ -15,3 +15,9 @@ stringComAspas: "Este tambem eh um texto valido para o YAML"
 
 nuloCom~: ~
 nuloNull: null
+
+verdadeiroComTrue: True
+verdadeiroComOn: On
+
+falsoComFalse: False
+falsoComOff: off
