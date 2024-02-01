@@ -1,0 +1,26 @@
+version: '3.4'
+services:
+   db:
+      build: ./mysql/
+      restart: always
+      command: mysqld --default_authentication_plugin=mysql_native_password
+      env_file:
+         - ./config/db.env
+      ports:
+         - 3306:3306
+      networks:
+         - dockercompose
+   backend:
+      depends_on:
+         - db
+      build: ./flask/
+      ports:
+         - 5000:5000
+      restart: always
+      volumes:
+         - "C:\\REPOSITORIO_GITHUB_DESKTOP\\udemy_docker_para_desenvolvedores_com_dockerswarm_e_kubernetes\\05_gerenciando_multiplos_containers_com_docker_compose\\06_bind_mount_compose\\flask:/app"
+      networks:
+         - dockercompose
+networks:
+   dockercompose:
+      driver: bridge
